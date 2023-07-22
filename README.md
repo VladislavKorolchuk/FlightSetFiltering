@@ -17,3 +17,13 @@
 
 ***
 
+## Application assembly
+
+git clone https://github.com/VladislavKorolchuk/FlightSetFiltering.git \
+cd FlightSetFiltering \
+mvn package \
+cd target
+
+## Launch
+java -jar FlightSetFiltering.jar
+
